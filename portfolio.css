@@ -1,0 +1,156 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: goldenrod; */
+    padding-left: 4px;
+    padding-right: 6px;
+    text-align: left;
+    word-spacing: 1px;
+    
+}
+
+html {
+    /* background-color: darkcyan; */
+    background-image: url("again3.jpg");
+    
+}
+
+h1{
+    color: goldenrod;
+}
+h2, h3, p {
+    color: goldenrod;
+}
+p {
+    font-size: 16px;
+}
+.bar p {
+    word-spacing: 3.5rem;
+    background-color: rgb(19, 0, 19); 
+    color: crimson;
+    max-width: 44rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.header h1 {
+    /* background-image: url("purple.jpg"); */
+    background-color: transparent;
+    
+    max-width: 30rem;
+}
+.menubar {
+    
+    display: flex;
+    /* padding: px; */
+}
+
+.menubar {
+    /* background-image: url("8.jpg"); */
+}
+.menubar div {
+    
+    display: inline-flex;
+    
+}
+.menubar nav div a:hover {
+    background-color: transparent;
+}
+/* menu bar!!! */
+.menubar nav div a {
+    background-blend-mode: color-burn;
+    background: transparent;
+    display: inline;
+    /* border-radius: 50%; */
+    padding: 1.9rem;
+}
+.menubar nav a {
+    text-decoration: none;
+    color: crimson;
+}
+.menubar nav a:hover {
+    color: black;
+}
+/* main part start here */
+.menubar nav div {
+    /* border-radius: 50%; */
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 23px;
+    /* width: 90px; */
+    height: 90px;
+    list-style: none;
+    text-align: center;
+    margin: 0.5rem;
+    
+}
+
+.icons {
+    word-spacing: 28px;
+    color: crimson;
+    background-color: transparent;
+    max-width: 33rem;
+}
+.icons .icons2 {
+    padding-left: 30px;
+    color: crimson;
+    
+    background-color: transparent;
+}
+/* 
+    PORTFOLIO
+*/
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+main .card {
+    width: 256px;
+    height: 128px;
+    margin: 4px;
+    background-color: lightgoldenrodyellow;
+}
+.contactform {
+    max-width: 20rem;
+    /* background-color: orange; */
+    /* width: 50vw; */
+}
+.contactform .fields {
+    background-color: transparent;
+    margin:2px;
+    
+}
+.contactform .message {
+    background-color: lightseagreen;
+    min-height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.btn-send {
+    background-color: wheat;
+    /* margin:2px; */
+    margin-left: 0.5rem;
+}
+.icons3 p {
+    color: crimson;
+}
+.icons .icons2   {
+    color: crimson
+}
+footer h3 {
+    background-color: orange;
+    max-width: 40rem;
+    /* color: rgb(19, 0, 19); */
+    color: crimson;
+    max-height: 5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* new prts */
+
+textarea {
+    background-color: lightgoldenrodyellow;
+}

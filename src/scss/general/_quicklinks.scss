@@ -1,0 +1,22 @@
+.quicklinks {
+    p{
+        text-align: center;
+    }
+    h2 {
+        padding-bottom: 1rem;
+        margin-top: 5rem;
+    }
+
+    a {
+        
+        text-decoration: none;
+        color: darkorange;
+        letter-spacing: 0.5rem;
+        padding: 1rem;
+    }
+    .links nav {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    }
+}

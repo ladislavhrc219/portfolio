@@ -1,0 +1,32 @@
+.skills {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    line-height: 8em;
+    margin-top: 2rem;
+    background-color: rgba(2, 38, 48, 0.788);
+    padding: 2rem;
+    h2 {
+        text-align: left;
+        font-size: 30px;
+    }
+}
+
+
+.iconfonts {
+    display: flex;
+    word-spacing: 2rem;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+.iconfonts div {
+    
+    padding-top: 1.5rem;
+    word-spacing: 8rem;
+    background-color: transparent;
+    max-width: 33rem;
+    color: darkorange;
+    background-color: transparent;
+}

@@ -1,7 +1,5 @@
 
-
-
-.title-onewords  {
+.title-onewords {
     h2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
     color: darkorange;
@@ -26,7 +24,19 @@
     }
     div i {
         color: aqua;
-        
+        animation: fadeAndScale 4s cubic-bezier(.08,.57,.94,.46);
+        transform: scale(1,1.5);        
+        @keyframes fadeAndScale {
+            from {
+                opacity: 0;
+                transform: scale3d(.75,.75,1);
+            }
+            to {
+                opacity: 1;
+                transform: scale3d(1, 1, 1);
+            }
+            
+        }
     }
 
 }
@@ -58,6 +68,19 @@
 
         line-height: 2rem;
     }
+    // animation: fadeAndScale 5s cubic-bezier(.08,.57,.94,.46);
+    // transform: scale(1,1);
+    // @keyframes fadeAndScale {
+    //     from {
+    //         opacity: 0;
+    //         transform: scale3d(.75,.75,1);
+    //     }
+    //     to {
+    //         opacity: 1;
+    //         transform: scale3d(1, 1, 1);
+    //     }
+        
+    // }
     
 }
 

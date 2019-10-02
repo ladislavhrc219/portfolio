@@ -17,7 +17,6 @@
         flex-wrap: wrap;
         // letter-spacing: 3rem;
        
-
     }
 }
 .one-icons {
@@ -52,18 +51,24 @@
 
     }
 }
-.header__flex{
-    
 
-    
-    nav a {
-        @media (min-width: 300px) and (max-width: 500px){
-            display: block;
-            flex-wrap: nowrap;
-            flex-direction: column;
-            font-size: 1rem;
-            align-items: flex-start;
+.bar { 
+    .portfolio {
+        
+        @media (min-width:375px) and (max-width:650px) {
+            letter-spacing: 2px;
+            display: flex;
         }
     }
-    
+}
+
+.iconfonts { 
+    div i{
+        
+        @media (min-width:375px) and (max-width:650px) {
+            padding: 1rem;
+            display: flex;
+            // justify-content: space-around;
+        }
+    }
 }

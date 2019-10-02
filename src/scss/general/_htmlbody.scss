@@ -1,13 +1,13 @@
 
 html {
-    // font-family: 'Arvo', serif;
+   
     font-family: 'Nunito Sans', sans-serif;
-    // font-size: 16px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    
+    // padding-left: 3rem;
+    // padding-right: 3rem;
     // background-position: center;
     background-size: cover;
-    background-image: url("/img/city.jpeg");
+    background-image: url("../../img/city7.jpg");
     // background-image: linear-gradient(rgba(173, 162, 8, 0.555)),url("../img/city.jpeg");
     // background-color: rgb(19, 0, 19);
     // background: radial-gradient(circle, rgb(34, 0, 19), rgb(164, 2, 196));
@@ -28,6 +28,7 @@ body {
     
     .hfck{
         color: darkorange;
+        font-size: 28px;
     }
     margin:0;
     padding:0;

@@ -1,14 +1,73 @@
+
 .projects {
+
+    // animation: fadeAndScale 2s cubic-bezier(.08,.57,.94,.46);
+    // transform: scale(1,1); 
+                
+    // @keyframes fadeAndScale {
+    //     from {
+    //         opacity: 0;
+    //         transform: scale3d(.75,.75,1);
+    //     }
+    //     to {
+    //         opacity: 1;
+    //         transform: scale3d(1, 1, 1);
+    //     }
+    // }
+
     margin-top: 2rem;
     padding: 2rem;
     background-color: rgba(2, 38, 48, 0.788);
     h2 {
     font-size: 30px; }
+
 }
 .card_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    animation-duration: 5s;
+    animation-name: bounce;
+    @keyframes bounce {
+        0% {
+            transform:translateY(-100%);
+            opacity: 0;
+          }
+        5% {
+            transform:translateY(-100%);
+            opacity: 0;
+        }
+        15% {
+            transform:translateY(-150%);
+            padding-bottom: 1px;
+        }
+        // 30% {
+        // transform:translateY(-50%);
+        // }
+          
+    }
+    // /////////////////////////////////////////////////////////
+
+    // animation-name: bounceIn;
+    // animation: bounceIn 5s cubic-bezier(.08,.57,.94,.46);
+    // transform: scale(1,1); 
+
+    // @keyframes bounceIn {
+    //     from {
+    //         width: 0%;
+    //         opacity: 0;
+    //         // transform: scale3d(.75,.75,1);
+    //     }
+    //     to {
+    //         width: 100%;
+    //         opacity: 1;
+    //         // transform: scale3d(1, 1, 1);
+    //     }
+        
+    // }
+
+    
 
 }
 main .card {
@@ -16,6 +75,9 @@ main .card {
     width: 256px;
     height: 128px;
     margin: 4px;
-    background-color: lightgoldenrodyellow;
+    background-color: goldenrod;
     margin: 0.5rem;
+
+    //////////////////////////////////////////////////////
+    
 }

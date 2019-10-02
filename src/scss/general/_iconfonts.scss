@@ -1,16 +1,80 @@
 
-
-.icons3  {
+.alternative-contact {
     display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
-    word-spacing: 5rem;
-    // div {
-    //     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+}
+.icons3  {
+    // animation-duration: 5s;
+    // animation-name: slidein;
+    // @keyframes slidein {
+    //     from {
+    //         margin-left: 100%;
+    //         width: 150%;
+    //     }
+    //     to {
+    //         margin-left: 0;
+    //         width: 50%;
+    //     }
     // }
+    //////////////////////////////////////////////////
+    // animation-duration: 5s;
+    // animation-name: slidein;
+    // @keyframes slidein {
+    //     from {
+    //       margin-left:100%;
+    //       width:300%
+    //     }
+        
+    //     to {
+    //       margin-left:0%;
+    //       width:100%;
+    //     }
+    // }
+
+
+    animation-duration: 5s;
+    animation-name: bounce;
+    @keyframes bounce {
+        0% {
+            transform:translateY(-100%);
+            opacity: 0;
+          }
+          5% {
+              transform:translateY(-100%);
+              opacity: 0;
+        }
+        15% {
+            transform:translateY(0);
+            padding-bottom: 5px;
+          }
+        30% {
+        transform:translateY(-50%);
+        }
+          
+    }
+
+
+    i {
+        padding: 2.5rem;
+        color: darkorange;
+    }
+    a {
+        color: darkorange;
+        
+    }
+    p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    }   
+    
+    
+        
    
 
 }

@@ -1,12 +1,12 @@
 .intro {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
     margin-top: 2rem;
-    background-image: url("/img/pngfind.com-php-logo-transparent-png-5994096.png");
+    // background-image: url("/img/pngfind.com-php-logo-transparent-png-5994096.png");
+    background: url("../../img/portfolio2.jpg");
     background-position: center;
     background-size: cover;
     height: auto;
     padding: 2rem;
-    
     background-color: rgba(2, 38, 48, 0.788);
     font-size: 30px;
     p {
@@ -14,6 +14,7 @@
         // color: aqua;
         color: wheat;
         background-color: rgba(2, 38, 48, 0.788);
+        
 
     }
     div {
@@ -23,5 +24,7 @@
         background-color: rgba(2, 38, 48, 0.788);
         // padding: 3rem;
         margin:0;
+        padding: 30px;
+        // padding: 20px;
     }
 }
